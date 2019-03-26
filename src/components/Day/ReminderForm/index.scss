@@ -1,0 +1,28 @@
+form {
+  textarea, 
+  .rc-time-picker-input {
+    font-family: inherit;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid #333;
+    border-top: 0;
+    border-left: 0;
+    border-radius: 0;
+    padding: 3px 5px;
+    margin: 0;
+    outline: 0;
+
+    &,
+    &::placeholder {
+      color: #ffffff;
+    }
+  }
+  textarea {
+    font-family: inherit;
+  }
+
+  .color-picker {
+    display: block;
+    margin-top: 3px;
+  }
+}
