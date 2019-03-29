@@ -79,7 +79,7 @@ class Day extends Component {
     const cssClasses = this.props.firstDayIndex
       ? `day first-index-${this.props.firstDayIndex}`
       : 'day';
-    
+
     return (
       <article className={cssClasses}>
         {

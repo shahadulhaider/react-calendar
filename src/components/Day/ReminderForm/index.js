@@ -4,6 +4,8 @@ import TimePicker from 'rc-time-picker';
 import ColorPicker from 'rc-color-picker';
 import moment from 'moment';
 
+import 'rc-color-picker/assets/index.css';
+import 'rc-time-picker/assets/index.css';
 import './index.scss';
 
 const ReminderForm = props => {

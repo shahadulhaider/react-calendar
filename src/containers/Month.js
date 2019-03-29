@@ -51,8 +51,10 @@ class Month extends Component {
 
   handleSetEditDay = day => {
     this.setState({
-      ...this.state.curMonth,
-      editDay: day
+      curMonth: {
+        ...this.state.curMonth,
+        editDay: day
+      }
     });
   };
 
